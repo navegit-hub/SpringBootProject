@@ -47,7 +47,6 @@ public class Employeecontroller {
 
 
 
-	
 	@GetMapping("getAllEmployees")
 	public ResponseEntity<?> getEmployees() {
 		System.out.println(Thread.currentThread().getName());
